@@ -72,4 +72,15 @@ Lecture notes for the Spring 2015 Data Engineering class
     load images or scripts, browser again sends a request to web server.
     - For ex : First page of amazon.com. It loads various parts of a page from different servers (services).
     
-  - REST is an architecture.
+  - REST (Representation State Transfer) is an architecture.  
+  
+  - CRUD Operations : Consider URL ('ebay.com/products/10')   
+    - URI trying to access users : ('/products/10')  
+      - GET = Read (get current state of all users)  
+              if ('/users/id') then current state of user with id = 10
+      - POST = Create (create new user)
+      - PUT = Update (update user info)
+      - DELETE = Destroy (destroy user)
+        
+    - GET has limit on number of url params. Hence POST is used where params are sent as a part of body.
+  
