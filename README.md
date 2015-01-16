@@ -62,7 +62,7 @@ Lecture notes for the Spring 2015 Data Engineering class
 #### REST :
   - Standard web application flow 
     - In a standerd web application, a request is generated from web browser which is directed to web server or app server
-    (after resolving your domain name). A typical request could be http://ebay.com/products/10. The types of requests are 
+    (after resolving your domain name). A typical request could be http:/ebay.com/products/10. The types of requests are 
     GET, POST, PUT, DELETE.
     - Web server forwards this query to handler who knows how to handle any type of requests. Web browser may just forward
     '/products/10' part to handler.
@@ -74,7 +74,7 @@ Lecture notes for the Spring 2015 Data Engineering class
     
   - REST (Representation State Transfer) is an architecture.  
   
-  - CRUD Operations : Consider URL ('ebay.com/products/10')   
+  - CRUD Operations : Consider URL ('http:/ebay.com/products/10')   
     - URI trying to access users : ('/products/10')  
       - GET = Read (get current state of all users)  
               if ('/users/id') then current state of user with id = 10
