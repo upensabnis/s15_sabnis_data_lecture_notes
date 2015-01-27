@@ -84,3 +84,38 @@ Lecture notes for the Spring 2015 Data Engineering class
         
     - GET has limit on number of url params. Hence POST is used where params are sent as a part of body.
   
+## Lecture 03
+#### REST : (continued..)
+  - It is an architectural style for web services
+  - It is an approach for developing web services that mimics the design of web itself
+  - Each web service provides access to linked set of resources
+  - For each resource you can perform operations on it similar to main operations (a.k.a. methods) of HTTP specification
+  - Each operation produces a result (JSON format is used mostly)
+  - POST and PUT methods typically sends data (may be in url or in body of http)
+  - Authentication data appears in HTTP headers
+  - Issues to be considered in REST :
+    - Security
+    - Identity
+    - Failure
+      - JSON
+      - HTTP status codes
+      - Combination of both
+    - Persistent
+
+## Lecture 04
+#### GIT :
+  - Distributed version control system
+  - Workflow :
+    - Untracked
+    - Unmodified
+    - Modified
+    - Staged
+    - Remote
+    
+#### GITHUB :
+  - Web interface to manage projects in git
+  - Idle for managing the enterprise applications as it goes through software enginering phases
+
+#### NODE :
+  - It is a platform built on chromes javascript runtime for easily building fast, scalable network applications
+  - Server side javascript code can be written
